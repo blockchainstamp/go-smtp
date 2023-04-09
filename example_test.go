@@ -7,14 +7,12 @@ package smtp_test
 import (
 	"errors"
 	"fmt"
+	"github.com/blockchainstamp/go-smtp"
 	"io"
 	"io/ioutil"
 	"log"
 	"strings"
 	"time"
-
-	"github.com/emersion/go-sasl"
-	"github.com/emersion/go-smtp"
 )
 
 func ExampleDial() {
